@@ -1,409 +1,100 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
-/*--------------------------------------------Colors*/
-
-.bg-color-name-title {
-    background-color: #676767;
-}
-
-.bg-color-three-reasons {
-    background-color: #ffffff;
-}
-
-.bg-color-personal-info {
-    background-color: #f4f4f4;
-}
-
-.bg-color-skills {
-    background-color: #ffffff;
-}
-
-.bg-color-work-history {
-    background-color: #9b59b6;
-}
-
-.bg-color-contact {
-    background-color: #ffffff;
-}
-
-.bg-color-conferences {
-    background-color: #f4f4f4;
-}
-
-.bg-color-groups {
-    background-color: #ffffff;
-}
-
-.ui-menu-color-home {
-    background-color: #e67e22;
-}
-
-.ui-menu-color-resume {
-    background-color: #9b59b6;
-}
-
-.ui-menu-color-contact {
-    background-color: #3498db;
-}
-
-.ui-menu-color-download {
-    background-color: #d9a81d;
-}
-
-
-.ui-menu-color-github {
-    background-color: #1c4a6c;
-}
-
-.ui-menu-color-interests {
-    background-color: #e74c3c;
-}
-
-
-
-
-body {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-    background-color: #525252;
-    color: #555555;
-}
-
-
-/*--------------------------------------------Special Paddings/Margins/Text*/
-
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-
-.row-table {
-    display: table;
-}
-
-.history-heading,
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
-
-/*--------------------------------------------Heading*/
-
-header {
-    margin: 0;
-}
-
-.heading {
-    margin-left: 50px;
-}
-
-.logo {
-    background: url("../images/rosie.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.name {
-    font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 50px;
-    color: #ffffff;
-}
-
-.title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
-    color: #ffffff;
-}
-
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    padding: 0;
-}
-
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #ffffff;
-    height: 120px;
-}
-
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-
-/*--------------------------------------------Hover.css*/
-
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
-}
-
-
-/*--------------------------------------------Footer*/
-
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
-
-footer .cv-pdf i {
-    color: #fafafa;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 5px;
-}
-
-footer .cv-pdf i:hover {
-    color: #e84610;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
-
-#footer-details {
-    margin: 20px;
-}
-
-/*--------------------------------------------Three Reasons*/
-
-.three-reasons-icon {
-    font-size: 26px;
-    color: #e67e22;
-}
-
-.three-reasons-heading {
-    margin-bottom: 15px;
-}
-
-/*--------------------------------------------Personal Info*/
-
-.personal-info-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
-}
-
-.personal-info-item .key,
-.personal-info-item .value {
-    padding-right: 8px;
-}
-
-.personal-info-item .key p,
-.personal-info-item .value p {
-    margin: 0;
-}
-
-.personal-info-item .key {
-    display: inline-block;
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
-}
-
-.personal-info-item .key p {
-    font-weight: 700;
-}
-
-.personal-info-item .value {
-    display: inline-block;
-    position: relative;
-    width: 60%;
-}
-
-/*--------------------------------------------Skills*/
-
-.progress {
-    position: relative;
-    height: 25px;
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-
-.progress-section {
-    margin: 40px 20px;
-}
-
-
-/*--------------------------------------------Work History*/
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
-
-/*--------------------------------------------Contact*/
-
-.contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: #e84610;
-    color: #fafafa;
-}
-
-/*--------------------------------------------Map*/
-div#map {
-    min-height: 360px;
-}
-
-/*--------------------------------------------Media Queries*/
-
-@media(min-width: 992px) {
-    .section-column {
-        padding: 0 30px 30px;
-        float: none;
-        display: table-cell;
-    }
-
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
-}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/github-styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/github-information.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <a href="index.html">
+                <div class="col-md-4 logo"></div>
+            </a>
+            <div class="col-md-8">
+                <div class="row bg-color-name-title">
+                    <div class="heading">
+                        <h1 class="name">Rosie Odenkirk</h1>
+                        <h2 class="title"> Full Stack Developer</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul id="nav" class="list-inline clearfix">
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
+                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
+                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
+                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-commenting-o " aria-hidden="true "></i><span>Contact</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem ">
+                            <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users " aria-hidden="true "></i><span>Interests</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem ">
+                            <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github " aria-hidden="true "></i><span>GitHub</span></a>
+                        </li>
+                        <li class="col-xs-6 col-sm-2 ui-menu-color-download menuitem ">
+                            <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download " aria-hidden="true "></i><span>Download CV</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div>
+                <h3 class="contact-heading uppercase text-center">View My GitHub Projects</h3>
+                <h5 class="uppercase text-center">You can also search on other user profiles</h5>
+            </div>
+
+            <div class="center-form">
+                <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()" />
+                <div id="gh-user-data"></div>
+                <div id="gh-repo-data"></div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="container-fluid ">
+        <div id="footer-details " class="row ">
+            <div class="col-sm-4 ">
+                <h5 class="uppercase general-sub ">About</h5>
+                <p class="inline-block ">
+                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
+                </p>
+            </div>
+            <div class="col-sm-4 ">
+                <h5 class="uppercase general-sub ">Download My CV</h5>
+                <p class="inline-block ">
+                    Need a printable version of my CV? Download it here.
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf "><i class="fa fa-download " aria-hidden="true "></i></a>
+                </p>
+            </div>
+            <div class="col-sm-4 ">
+                <h5 class="uppercase general-sub ">MySocial</h5>
+                <ul class="list-inline social-links ">
+                    <li><a target="_blank " href="# "><i class="fa fa-facebook "></i></a></li>
+                    <li><a target="_blank " href="# "><i class="fa fa-twitter "></i></a></li>
+                    <li><a target="_blank " href="# "><i class="fa fa-linkedin "></i></a></li>
+                    <li><a target="_blank " href="# "><i class="fa fa-pinterest "></i></a></li>
+                    <li><a target="_blank " href="# "><i class="fa fa-instagram "></i></a></li>
+                    <li><a target="_blank " href="# "><i class="fa fa-youtube "></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
